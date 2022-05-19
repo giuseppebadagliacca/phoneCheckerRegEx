@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone Number Checker</title>
+</head>
+    <body>
+
+        <style>
+            body{
+                height: 100vh;
+            }
+            #form, body{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+            #form{
+                border: 2px solid grey;
+                height: 300px;
+                border-radius: 10px;
+                padding: 20px;
+            }
+            #form div{
+                margin: 20px 0;
+            }
+        
+            #heading{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+            #heading h1, #heading h4{
+                margin: 5px;
+            }
+        
+        </style>
+        
+        <form>
+        <div id="form">
+            <div id="heading">
+                <h1>The world's simplest form</h1>
+                <h4>Check validity of your phone number!</h4>
+            </div>
+            <div>
+                <input type="tel" id="phone">
+            </div>
+            <input type="button" value="submit" id="submit">
+            <h3></h3>
+        </div>
+        </form>
+            <script src="/form.js"></script>
+        </body>
+</html>
